@@ -95,8 +95,6 @@ f3 %>%
   # Build the model matrix with data set `example_long` 
   model.matrix(example_long)
 
-
-# TODO: for the following, the toy sample data table needs to be transferred to r
 ts <- data.frame(
   Individual = c(1, 2, 3, 4, 5, 6),
   Choice = c("A", "A", "B", "A", "B", "B"),
